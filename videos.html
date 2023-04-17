@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Videos</title>
+		<link href="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
+		<link href="css/common.css" rel="stylesheet">
+		<link href="css/videos.css" rel="stylesheet">
+		
+		<!-- bootstrap scripts -->
+		<script src="js/jquery-3.2.1.min.js">
+		</script>
+		<script src="js/popper.min.js">
+		</script>
+		<script src="js/bootstrap-4.0.0.js">
+		</script>
+	</head>
+	
+	<body>
+		
+		<!-- header image -->
+		<div id="header-placeholder">
+		</div>
+		<script>
+			$(function()
+			{
+				$("#header-placeholder").load("page-header.html");
+			});
+		</script>
+		
+		<!-- main menu -->
+		<div id="nav-placeholder">
+		</div>
+		<script>
+			$(function(){
+			  $("#nav-placeholder").load("navbar.html");
+			});
+		</script>
+		
+		<!-- page title -->
+		<section class="medium-grey-section" id="page-title">
+			<p>
+				Videos
+			</p>
+		</section>
+		
+		<!-- page body -->
+		<section class="light-grey-section narrow-section text-center">
+			<video controls class="video1">
+				<source src="videos/SNT1.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+			<p class="text-center">
+				Three Generations Of The Classical Lineage Perform The Second Section Of The Sil Nim Tao
+			</p>
+			<video controls class="video2">
+				<source src="videos/Shadow boxing1.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+			<p class="text-center">
+				Short Clip of Sifu Bell Shadow Boxing
+			</p>
+			<a id="reopening2022">
+				<video controls class="video1">
+					<source src="videos/REOPENING of the London school, April 2022.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<p class="text-center">
+					REOPENING of the London school, April 2022 by GGM Victor Kan 简华捷大師
+				</p>
+			</a>
+		</section>
+	</body>
+</html>

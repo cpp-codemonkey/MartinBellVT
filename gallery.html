@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Gallery</title>
+		<link href="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
+		<link href="css/common.css" rel="stylesheet">
+		<link href="css/gallery.css" rel="stylesheet">
+		
+		<!-- bootstrap scripts -->
+		<script src="js/jquery-3.2.1.min.js">
+		</script>
+		<script src="js/popper.min.js">
+		</script>
+		<script src="js/bootstrap-4.0.0.js">
+		</script>
+	</head>
+	
+	<body>
+		
+		<!-- header image -->
+		<div id="header-placeholder">
+		</div>
+		<script>
+			$(function()
+			{
+				$("#header-placeholder").load("page-header.html");
+			});
+		</script>
+		
+		<!-- main menu -->
+		<div id="nav-placeholder">
+		</div>
+		<script>
+			$(function(){
+			  $("#nav-placeholder").load("navbar.html");
+			});
+		</script>
+		
+		<!-- page title -->
+		<section class="medium-grey-section" id="page-title">
+			<p>
+				Gallery
+			</p>
+		</section>
+		
+		<!-- page body -->
+		<section class="light-grey-section">
+			<!-- dummy -->
+			<div class="text-center">
+				<img class="gallery-image" src="images/gallery/dummy1.jpeg" alt="">
+				<p class="text-center">
+					Dummy Technique
+				</p>
+				<br>
+			</div>
+		</section>
+		<section class="text-center medium-grey-section narrow-section" id="sparring">
+			<!-- body armour and sparring -->
+			<br>
+			<h4>
+				Great Grandmaster Kan’s pioneering use of emerging sports body armour technology in the late 1970s enabled his students to implement Ving Tsun’s side kick during semi contact sparring.
+			</h4>
+			<img class="gallery-image" src="images/gallery/spar1.jpeg" alt="">
+			<br>
+			<img class="gallery-image" src="images/gallery/spar2.jpeg" alt="">
+			<br>
+			<img class="gallery-image" src="images/gallery/spar3.jpeg" alt="">
+			<br>
+			<img class="gallery-image" src="images/gallery/spar4.jpeg" alt="">
+			<br>
+		</section>
+	</body>
+</html>

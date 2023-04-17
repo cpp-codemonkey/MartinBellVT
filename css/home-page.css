@@ -1,0 +1,60 @@
+.gm-kan-retired-text
+{
+	color: crimson;
+	font-weight: bold;
+}
+
+body
+{
+	text-align: center;
+	margin: 0;
+}
+
+/* portrait section */
+#portraits
+{
+	width: auto;
+	padding: 5% 5% 1%;
+}
+
+/* Authenticity and group photo sections*/
+.authenticity
+{
+	font-family: "Times New Roman";
+	font-style: italic;
+}
+
+.group-photo
+{
+	padding: 1% 2% 1%
+}
+
+/* NEWS section*/
+.hyperlink-text
+{
+	font-size: 1.2rem;
+}
+
+.hyperlink-color
+{
+	font-weight: normal;
+	font-style: italic;
+	color: #B8F05E;
+}
+
+a:hover
+{
+	color: #C4595B;
+}
+
+.left-news-panel
+{
+	background-color: #2B2B2B;
+	padding: 2%;
+}
+
+.right-news-panel
+{
+	background-color: #423F3E;
+	padding: 2%;
+}

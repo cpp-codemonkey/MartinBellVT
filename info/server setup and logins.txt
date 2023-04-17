@@ -1,0 +1,14 @@
+VKVT:
+Settings for Dream Weaver to gain access to the Fasthosts FTP server.
+To access server settings go to (menu) Site->Manage Sites and click the "New Site" button if there isn't already one for the site. When you create the server setup, you need to give it a name like "VKVT". You then need to specify where the folder is for the local files on your PC. If the site already exists, just double click on it to change the server settings.
+In the "Site setup" dialog click on "Servers" in the left hand pane. Then enter the info below.
+
+Martin Bell:
+FTP address: ftp.mbellclassicalvkvt.co.uk
+User name: mbellclassicalvkvt.co.uk
+Password: YKFFnWhRo94NpU267abB
+Web url: http://ftp.mbellclassicalvkvt.co.uk
+Root directory:
+Port: 21
+
+If you're using a standalone FTP client then the info will be similar. We're using Linux to host the site, so the case of filenames of things like pictures, html files etc. is important.

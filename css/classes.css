@@ -1,0 +1,42 @@
+.input-style
+{
+	padding: 2px;
+	border-radius: 10px;
+	background-color: white;
+	border: 0px;
+	color: black;
+	width: 80%;
+	border-width: 0px;
+}
+
+.textarea-style
+{
+	border-radius: 10px;
+	border: 0px;
+	width: 100%;
+	border-width: 0px;
+}
+
+.button-style
+{
+	border-radius: 10px;
+	width: 50%;
+	background-color: #5F805A;
+	color: #EEC6FC;
+	border-width: 0px;
+}
+
+.email-section-padding
+{
+	padding: 5%;
+}
+
+.email-card-padding
+{
+	padding: 2% 0%;
+}
+
+.label-color
+{
+	color: #EBAFFF;
+}

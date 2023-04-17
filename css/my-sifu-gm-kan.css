@@ -1,0 +1,16 @@
+/* CSS Document */
+
+.kan-and-bell
+{
+	width: 35%;
+	padding: 3% 2% 3%;
+}
+
+@media (min-width: 1028px)
+{
+	.kan-and-bell
+	{
+		width: 20%;
+		padding: 1% 2% 1%;
+	}
+}

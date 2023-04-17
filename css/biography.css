@@ -1,0 +1,9 @@
+/* CSS Document */
+
+@media (min-width: 1028px)
+{
+	.bio-text
+	{
+		padding: 1% 35%;
+	}
+}

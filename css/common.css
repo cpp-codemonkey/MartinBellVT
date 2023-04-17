@@ -1,0 +1,174 @@
+.header
+{
+	width: auto;	
+}
+
+.dark-grey-section
+{
+	background-color: #212121;
+	color: white;
+}
+
+.link-image-padding
+{
+	padding: 4%;	
+}
+
+.medium-grey-section
+{
+	background-color: #4B4B4B;
+	color: white;
+}
+
+.light-grey-section
+{
+	background-color: dimgray;
+	color: white;
+}
+
+.white-text
+{
+	color: white;	
+}
+
+.form-padding
+{
+	padding: 2%;
+}
+
+.section-text
+{
+	padding: 2%;	
+}
+
+.section-padding
+{
+	padding: 0%;
+}
+
+.center-image
+{
+	display:block; 
+	margin:0 auto;
+}
+
+.highlight-text-color
+{
+	color: #FEE440;
+}
+
+#page-title
+{
+	font-size: 2rem;
+	text-align: center;
+	padding: 2%;
+	font-weight: bold;
+	font-family: "Times New Roman";
+}
+
+.social-icon 
+{
+	margin: 20px 10px;
+	color: white;
+}
+
+.image-padding
+{
+	padding: 0%;
+}
+
+.map-padding
+{
+	padding: 2%;
+}
+
+.card-padding
+{
+	padding: 2%;
+}
+
+.dropdown-color
+{
+	background-color: #4A4A4A;	
+}
+
+.dropdown-text
+{
+	color: white;
+}
+
+/* selector for small screens */
+@media (max-width: 1028px)
+{
+	.portrait-image
+	{
+		width: 50%;
+	}
+	
+	.narrow-section
+	{
+		padding: 2% 10% 2%;
+	}
+	
+	.map-size
+	{
+		width: 90%;
+		height: 90%;
+	}	
+}
+
+.nav 
+{
+	display: inline-block;
+	float: none;
+}
+
+/* selector for medium screens */
+@media (min-width: 1028px)
+{
+	.school-info-padding
+	{
+		padding: 2% 20%;
+	}
+	
+	.instructor-portrait
+	{
+		width: 100%;
+	}
+	
+	.narrow-section
+	{
+		padding: 0% 20%;
+	}
+	
+	/* ensures navbar is centered when on large screens */
+	.navbar-expand-lg .navbar-collapse 
+	{
+		display: flex!important;
+		justify-content: space-around;
+		flex-basis: auto;
+	}
+}
+
+/* selector for very large displays*/
+@media (min-width: 2000px)
+{
+	.narrow-section
+	{
+		padding: 0% 20%;
+	}
+	
+	.instructor-portrait
+	{
+		width: 50%;
+	}
+	
+		/* ensures navbar is centered when on large screens */
+	.navbar-expand-lg .navbar-collapse 
+	{
+		display: flex!important;
+		justify-content: space-around;
+		flex-basis: auto;
+	}
+
+}

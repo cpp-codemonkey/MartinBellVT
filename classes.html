@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Classes</title>
+		<link href="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
+		<link href="css/common.css" rel="stylesheet">
+		<link href="css/classes.css" rel="stylesheet">
+		
+		<!-- bootstrap scripts -->
+		<script src="js/jquery-3.2.1.min.js">
+		</script>
+		<script src="js/popper.min.js">
+		</script>
+		<script src="js/bootstrap-4.0.0.js">
+		</script>
+		
+		<!-- font awesome stuff -->
+		<script src="https://kit.fontawesome.com/0eb1a5da14.js" crossorigin="anonymous">
+		</script>
+	</head>
+	
+	<body>
+		
+		<!-- header image -->
+		<div id="header-placeholder">
+		</div>
+		<script>
+			$(function()
+			{
+				$("#header-placeholder").load("page-header.html");
+			});
+		</script>
+		
+		<!-- main menu -->
+		<div id="nav-placeholder">
+		</div>
+		<script>
+			$(function()
+			{
+				$("#nav-placeholder").load("navbar.html");
+			});
+		</script>
+		
+		<!-- page title -->
+		<section class="medium-grey-section" id="page-title">
+			<p>
+				Classes
+			</p>
+		</section>
+		
+		<!-- Elephant and castle school -->
+		<section class="dark-grey-section school-info-padding">
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div class="card mt-2 border-0">
+						<div class="card-body medium-grey-section">
+							<h2 class="text-center">
+								Elephant &amp; Castle
+							</h2>
+							<h3>
+								<span class="sage-text">St. Judes</span><br>
+								St. Georges Road<br>
+								London SE1 6EZ<br>
+							</h3>
+							<p>
+								Just 8 minutes from Elephant &amp; Castle and Lambeth North tube stations.
+							</p>
+						</div>
+					</div>
+					<div class="card mt-2 border-0">
+						<div class="card-body medium-grey-section"> Instructor: Sifu Martin Bell<br>
+							<i class="social-icon-classes fas fa-phone-square-alt">
+							</i> +44 (0)7 905 120 155<br>
+							<i class="social-icon-classes fas fa-envelope">
+							</i> mrtnbll50@gmail.com<br>
+							Wednesday 7:00pm<br>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<img class="img-fluid map-padding" src="images/Lambeth.png" alt="">
+				</div>
+			</div>
+		</section>
+		
+		<!-- Watling school -->
+<!--		<section class="dark-grey-section school-info-padding" id="edgware-school">
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div class="card mt-2 border-0">
+						<div class="card-body medium-grey-section">
+							<h2 class="text-center">
+								Edgware
+							</h2>
+							<h3>
+								<span class="sage-text">Watling Centre</span><br>
+								145 Orange Hill Road<br>
+								Edgware HA 8 OTR<br>
+							</h3>
+							<p>
+								Burnt Oak on the Northern Line Tube, then bus 302 or 10 minutes walk. 
+								At the corner roundabout between Orange Hill Road and Deensbrook Ave.
+							</p>
+						</div>
+					</div>
+					<div class="card mt-2 border-0">
+						<div class="card-body medium-grey-section"> Instructor: Sifu Martin Bell<br>
+							<i class="social-icon-classes fas fa-phone-square-alt">
+							</i> +44 (0)7 905 120 155<br>
+							<i class="social-icon-classes fas fa-envelope">
+							</i> mrtnbll50@gmail.com<br>
+							<h3>Closed until further notice.</h3><br>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<img class="img-fluid image-padding" src="images/burnt-oak.png" alt="">
+				</div>
+			</div>
+		</section>-->
+		<section class="light-grey-section narrow-section text-center" id="email-form">
+			<br>
+			<div class="card email-card-padding medium-grey-section">
+				<form class="form-padding" method="post" action="php/mbellsendmail.php">
+					<label class="label-color">Name:</label>
+					<input class="input-style" name="name">
+					<br>
+					<label class="label-color">Email:</label>
+					<input class="input-style" name="email">
+					<br>
+					<br>
+					<label class="label-color">Message:</label>
+					<br>
+					<textarea class="textarea-style" rows="10" cols="40" name="message"></textarea>
+					<br>
+					<input class="button-style" type="submit" name="Send message">
+				</form>
+			</div>
+			<br>
+		</section>
+	</body>
+</html>
