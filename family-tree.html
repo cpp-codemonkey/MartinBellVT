@@ -21,85 +21,87 @@
 	</head>
 	
 	<body>
+		<section class="topmost-section">
 		
-		<!-- header image -->
-		<div id="header-placeholder">
-		</div>
-		<script>
-			$(function()
-			{
-				$("#header-placeholder").load("page-header.html");
-			});
-		</script>
+			<!-- header image -->
+			<div id="header-placeholder">
+			</div>
+			<script>
+				$(function()
+				{
+					$("#header-placeholder").load("page-header.html");
+				});
+			</script>
 
-		<!-- main menu -->
-		<div id="nav-placeholder">
-		</div>
-		<script>
-			$(function(){
-			  $("#nav-placeholder").load("navbar.html");
-			});
-		</script>
-		
-		<!-- page title -->
-		<section class="medium-grey-section" id="page-title">
-			<p>
-				Family Tree
-			</p>
-		</section>
-		
-		<section class="light-grey-section section-text">
-			<p class="narrow-section">
-				-  with regular training of no less than 2 years, well known internationally.<br><br>
+			<!-- main menu -->
+			<div id="nav-placeholder">
+			</div>
+			<script>
+				$(function(){
+				  $("#nav-placeholder").load("navbar.html");
+				});
+			</script>
 
-				From  the  mid  50’s onward, Yip Man Ving Tsun was getting very popular in Hong Kong. 
-				It was the most  talked about subject in the Hong Kong newspapers. There were many 
-				people who came to Yip Man to learn Ving Tsun.  But, most of them just did it for a 
-				week or a month for  “social purposes” only.
-				<br><br>
-				There were only a handful of serious ones (disciples) like Sifu Victor Kan Wah Chit and Sifu Wong.
-				<br><br>
-				They trained regularly every day. Sifu Kan trained from 1954 to 1961 then left Hong Kong 
-				for Europe. Sifu Wong trained from 1956 and stayed inside the Ving Tsun circle all the time 
-				until the present. They know nearly every one’s Ving Tsun background of those days. It is 
-				their duty to tell and to testify the genuine disciples of Yip Man so the next generation 
-				will not be confused. Each one of them has their own interpretation of Yip  Man’s Ving Tsun. 
-				It is different from the Hong Kong Wing Chun association’s book, in which anyone can just pay to 
-				have their name put down in the family tree. The association holds no responsibilities for any
-				mistakes or the truth.
-				<br><br>
-				In the following, an asterisk (*) means the disciple has passed away and the number represents 
-				the year he started training.
-			</p>
-		</section>
-		
-		<section class="medium-grey-section section-text text-center">
-			<p class="text-center font-weight-bold tree-title">
-				In the 1950s - well known:
-			</p>
-			<img class="center-image" id="tree-1950s" alt="">
-		</section>
-		
-		<section class="light-grey-section section-text text-center">
-			<p class="text-center font-weight-bold tree-title">
-				In the 1960s:
-			</p>
-			<img class="center-image" id="tree-1960s" alt="">
-		</section>
-		
-		<section class="medium-grey-section section-text">
-			<p class="text-center font-weight-bold">
-				By: V. Kan Wah Chit and Sifu Wong
-			</p>
-		</section>
-		<script>
-			loadtree();
-		</script>
-		<script>
-			$(window).resize(function() 
-			{
+			<!-- page title -->
+			<section class="medium-grey-section" id="page-title">
+				<p>
+					Family Tree
+				</p>
+			</section>
+
+			<section class="light-grey-section section-text">
+				<p class="narrow-section">
+					-  with regular training of no less than 2 years, well known internationally.<br><br>
+
+					From  the  mid  50’s onward, Yip Man Ving Tsun was getting very popular in Hong Kong. 
+					It was the most  talked about subject in the Hong Kong newspapers. There were many 
+					people who came to Yip Man to learn Ving Tsun.  But, most of them just did it for a 
+					week or a month for  “social purposes” only.
+					<br><br>
+					There were only a handful of serious ones (disciples) like Sifu Victor Kan Wah Chit and Sifu Wong.
+					<br><br>
+					They trained regularly every day. Sifu Kan trained from 1954 to 1961 then left Hong Kong 
+					for Europe. Sifu Wong trained from 1956 and stayed inside the Ving Tsun circle all the time 
+					until the present. They know nearly every one’s Ving Tsun background of those days. It is 
+					their duty to tell and to testify the genuine disciples of Yip Man so the next generation 
+					will not be confused. Each one of them has their own interpretation of Yip  Man’s Ving Tsun. 
+					It is different from the Hong Kong Wing Chun association’s book, in which anyone can just pay to 
+					have their name put down in the family tree. The association holds no responsibilities for any
+					mistakes or the truth.
+					<br><br>
+					In the following, an asterisk (*) means the disciple has passed away and the number represents 
+					the year he started training.
+				</p>
+			</section>
+
+			<section class="medium-grey-section section-text text-center">
+				<p class="text-center font-weight-bold tree-title">
+					In the 1950s - well known:
+				</p>
+				<img class="center-image" id="tree-1950s" alt="">
+			</section>
+
+			<section class="light-grey-section section-text text-center">
+				<p class="text-center font-weight-bold tree-title">
+					In the 1960s:
+				</p>
+				<img class="center-image" id="tree-1960s" alt="">
+			</section>
+
+			<section class="medium-grey-section section-text">
+				<p class="text-center font-weight-bold">
+					By: V. Kan Wah Chit and Sifu Wong
+				</p>
+			</section>
+			<script>
 				loadtree();
-			});
+			</script>
+			<script>
+				$(window).resize(function() 
+				{
+					loadtree();
+				});
+			</script>
 		</script>
 		
 	</body>

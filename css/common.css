@@ -97,6 +97,12 @@
 	color: white;
 }
 
+.nav 
+{
+	display: inline-block;
+	float: none;
+}
+
 /* selector for small screens */
 @media (max-width: 1028px)
 {
@@ -115,12 +121,6 @@
 		width: 90%;
 		height: 90%;
 	}	
-}
-
-.nav 
-{
-	display: inline-block;
-	float: none;
 }
 
 /* selector for medium screens */
@@ -155,7 +155,7 @@
 {
 	.narrow-section
 	{
-		padding: 0% 20%;
+		padding: 0% 5%;
 	}
 	
 	.instructor-portrait
@@ -171,4 +171,14 @@
 		flex-basis: auto;
 	}
 
+	.topmost-section
+	{
+		padding: 0% 25%;
+	}
+
+}
+
+body
+{
+	background-color: #777777;
 }
