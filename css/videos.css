@@ -1,4 +1,5 @@
 /* CSS Document */
+/*
 .video1
 {
 	padding-top: 3%;
@@ -9,4 +10,31 @@
 {
 	padding-top: 3%;
 	width: 75%;
+}
+*/
+/* selector for large screens */
+@media (min-width: 1080px)
+{
+	.video1
+	{
+		width: 90%;
+	}
+	.video2
+	{
+		padding-top: 3%;
+		width: 75%;
+	}	
+}
+/* selector for small screens */
+@media (max-width: 1028px)
+{
+	.video1
+	{
+		width: 300px;
+	}
+	.video2
+	{
+		padding-top: 3%;
+		width: 300px;
+	}
 }
